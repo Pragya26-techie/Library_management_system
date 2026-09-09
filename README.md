@@ -7,15 +7,15 @@
 This Project demonstrates the implementation of Library Management System Using SQL.It includes creating and managing tables,performing CRUD operations,and executing advanced SQL queries.The goal is to shocase skills in database design,manipulation,and querying.
 
 ## Objectives
---1.**Set up Database**:Create and populate the database with tables for branches,employees,members,books,issued status,and return status.
---2.**CRUD Operations**:Perform Create,Read,Update and Delete operations on the data.
---3.**CTAS(Craete Table As Select)**:Utilize CTAS to create new tables based on query results.
---4.**Adavcnced SQl Queries**:Develop complex queries to analyze retrieve specific data.
+- 1.**Set up Database**:Create and populate the database with tables for branches,employees,members,books,issued status,and return status.
+- 2.**CRUD Operations**:Perform Create,Read,Update and Delete operations on the data.
+- 3.**CTAS(Craete Table As Select)**:Utilize CTAS to create new tables based on query results.
+- 4.**Adavcnced SQl Queries**:Develop complex queries to analyze retrieve specific data.
 
 ## Project Structure
 ### 1.Database setup
--- **Database Creation**: created database named ```library details```
--- **Table Creation**: created tables for branches,employees,members,books,issued status, and return status. Each table includes relevant columns and relationships.
+- **Database Creation**: created database named ```library details```
+- **Table Creation**: created tables for branches,employees,members,books,issued status, and return status. Each table includes relevant columns and relationships.
 ```
 CREATE DATABASE library_db;
 
@@ -86,7 +86,7 @@ CREATE TABLE issued_status
 
 
 
--- Create table "ReturnStatus"
+- Create table "ReturnStatus"
 DROP TABLE IF EXISTS return_status;
 CREATE TABLE return_status
 (
@@ -99,10 +99,10 @@ CREATE TABLE return_status
 );
 ```
 ### 2.CRUD Operations
--- **Create**: Inserted sample records into the books table.
--- **Read**: Retrieved and displayed data from various tables.
--- **Update**: Updated records in the employees table.
--- **Delete**: Removed records from the members table as needed
+- **Create**: Inserted sample records into the books table.
+- **Read**: Retrieved and displayed data from various tables.
+- **Update**: Updated records in the employees table.
+- **Delete**: Removed records from the members table as needed
 
 **Task 1. Create a New Book Record**-- "978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.')" 
 ```
@@ -133,7 +133,7 @@ GROUP BY issued_member_id
 HAVING COUNT(issued_id) > 1;
 ```
 ### 3.CTAS(Create Table As Select)
--- **Task 6: Create Summary Tables**:Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**
+- **Task 6: Create Summary Tables**:Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**
 ```
 CREATE TABLE book_issued_cnt AS
 SELECT b.isbn,b.book_title,COUNT(ist.issued_id) AS issue_count
@@ -271,18 +271,18 @@ DELIMITER ;
 CALL add_return_records('RS138', 'IS135');
 ```
 ### Reports
--- **Database Schema**:Detailed table structures and relationships.
--- **Data Analysis**:Insights into book categories, employee salaries, member registration trends, and issued books.
--- **Summary Reports**:Aggregated data on high-demand books and employee performance.
+- **Database Schema**:Detailed table structures and relationships.
+-  **Data Analysis**:Insights into book categories, employee salaries, member registration trends, and issued books.
+- **Summary Reports**:Aggregated data on high-demand books and employee performance.
 
 ### Conclusion
 This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and advanced querying, providing a solid foundation for data management and analysis.
 
 ### How to Use
--- 1.**Clone the Repository**:Clone this repository to your local machine.
+- 1.**Clone the Repository**:Clone this repository to your local machine.
 `` 
 https://github.com/Pragya26-techie/Library_management_system.git.
 ```
--- 2.**Set Up the Database**
--- 3.**Run the Queries**:Use the SQL queries in the ``` library_data_analysis.sql ``` to perform the analysis.
--- 4.**Explore and Modify**:Customize the queries as needed to explore different aspects of the data or answer additional questions.
+- 2.**Set Up the Database**
+- 3.**Run the Queries**:Use the SQL queries in the ``` library_data_analysis.sql ``` to perform the analysis.
+- 4.**Explore and Modify**:Customize the queries as needed to explore different aspects of the data or answer additional questions.
