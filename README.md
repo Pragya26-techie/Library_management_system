@@ -280,7 +280,7 @@ This project demonstrates the application of SQL skills in creating and managing
 
 ### How to Use
 - 1.**Clone the Repository**:Clone this repository to your local machine.
-`` 
+``` 
 https://github.com/Pragya26-techie/Library_management_system.git.
 ```
 - 2.**Set Up the Database**
