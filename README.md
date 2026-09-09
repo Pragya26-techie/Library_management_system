@@ -1,16 +1,16 @@
 # Library_management_system
 ## Project Overview
-**Project Title**:Library Management System
-**Level**:Intermediate
-**Database**:```library_details```
+--**Project Title**:Library Management System
+--**Level**:Intermediate
+--**Database**:```library_details```
 
 This Project demonstrates the implementation of Library Management System Using SQL.It includes creating and managing tables,performing CRUD operations,and executing advanced SQL queries.The goal is to shocase skills in database design,manipulation,and querying.
 
 ## Objectives
--- 1.**Set up Database**:Create and populate the database with tables for branches,employees,members,books,issued status,and return status.
--- 2.**CRUD Operations**:Perform Create,Read,Update and Delete operations on the data.
--- 3.**CTAS(Craete Table As Select)**:Utilize CTAS to create new tables based on query results.
--- 4.**Adavcnced SQl Queries**:Develop complex queries to analyze retrieve specific data.
+--1.**Set up Database**:Create and populate the database with tables for branches,employees,members,books,issued status,and return status.
+--2.**CRUD Operations**:Perform Create,Read,Update and Delete operations on the data.
+--3.**CTAS(Craete Table As Select)**:Utilize CTAS to create new tables based on query results.
+--4.**Adavcnced SQl Queries**:Develop complex queries to analyze retrieve specific data.
 
 ## Project Structure
 ### 1.Database setup
