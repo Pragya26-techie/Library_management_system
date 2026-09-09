@@ -1,8 +1,8 @@
 # Library_management_system
 ## Project Overview
---**Project Title**:Library Management System
---**Level**:Intermediate
---**Database**:```library_details```
+- **Project Title**:Library Management System
+- **Level**:Intermediate
+- **Database**:```library_details```
 
 This Project demonstrates the implementation of Library Management System Using SQL.It includes creating and managing tables,performing CRUD operations,and executing advanced SQL queries.The goal is to shocase skills in database design,manipulation,and querying.
 
